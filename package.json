@@ -1,0 +1,22 @@
+{
+  "name": "tubedaylight-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "导光管采光设计与照度仿真系统 (WebGL2 DDGI)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "playwright-core": "^1.65.1",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
